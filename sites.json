@@ -1,0 +1,17 @@
+[
+  {
+    "name": "GitHub",
+    "url": "https://github.com",
+    "logo": "https://github.githubassets.com/favicons/favicon.png"
+  },
+  {
+    "name": "Wikipedia",
+    "url": "https://wikipedia.org",
+    "logo": "https://www.wikipedia.org/static/favicon/wikipedia.ico"
+  },
+  {
+    "name": "MDN Web Docs",
+    "url": "https://developer.mozilla.org",
+    "logo": "https://developer.mozilla.org/favicon-48x48.cbbd161b.png"
+  }
+]
