@@ -2,15 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Hello, GitHub Pages</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Dashboard</title>
+    <!-- Use GitHub Pages default stylesheet (from jekyll-theme-cayman) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/primer/21.0.9/primer.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <main>
-      <h1>It works 🎉</h1>
-      <p>You’re seeing a static site deployed from GitHub.</p>
-    </main>
-    <script src="app.js"></script>
+    <header class="Header text-center p-3">
+      <h1>Website Dashboard</h1>
+      <p>Quick access & status monitor</p>
+    </header>
+
+    <main class="p-3 d-flex flex-wrap justify-center" id="dashboard"></main>
+
+    <footer class="text-center mt-5 color-fg-subtle">
+      <small>Last updated: <span id="timestamp"></span></small>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
